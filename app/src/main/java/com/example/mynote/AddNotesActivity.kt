@@ -13,6 +13,7 @@ class AddNotesActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAddNotesBinding
     private lateinit var db: NotesDatabaseHelper
+    private halo;
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
